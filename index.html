@@ -1,3 +1,168 @@
-hhhhh cv 
- hnm, 
-jhv j
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Team Optix-Hunter</title>
+
+    <link rel="icon" type="image/png" href="img/logo.jpeg">
+
+  <meta name="description" content="Team Optix-Hunter is a team of talented and experienced developers who are passionate about creating innovative and user-friendly software. We offer a wide range of services, including web development, mobile development, and software development. We have a proven track record of success in delivering high-quality software on time and within budget.">
+
+  	    <link rel="stylesheet" href="draw.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <meta name="robots" content="index, follow">
+
+  <meta name="google-site-verification" content="NnF3NpPBQCYxmoxq3yHv70A14TEKNucLvsYskA_JFBk"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <script src="script.js"></script>
+
+
+</head>
+
+<body>
+
+  <div id="logo" style="text-align: justify;"><img alt="Team Optix-Hunter Logo" src="/img/logo.jpeg" /></div>
+
+
+
+  <div id="bio">
+
+    <h1>Welcome to Optix-Hunter.</h1>
+
+    <p>Our work will amaze you.</p>
+
+  </div>
+
+
+
+  <div id="members">
+
+    <div class="member">
+
+      <h3>MD Baizid Mostafa Asif</h3>
+
+      <p>POSITION: Founder</p>
+
+      <button class="popup-btn" onclick="openPopup('details1')">More Details</button>
+
+    </div>
+
+
+
+    <div class="member">
+
+      <h3>SIDRATUL MUNTAHA SIAM</h3>
+
+      <p><span style="font-size: 1.2em;">POSITION:  Co-Founder
+</span></p>
+
+      <button class="popup-btn" onclick="openPopup('details2')">More Details</button>
+
+    </div>
+
+
+
+  </div>
+
+  <footer>
+
+  	<div class="footer-content">
+
+  	<p><a href="https://optix-hunter.xyz/">&copy; 2023 Optix-Hunter All rights reserved.</a></p>
+
+  </div>
+
+  </footer>
+
+  <!-- Pop-up -->
+
+  <div id="popup" class="popup">
+
+    <div class="popup-inner">
+
+      <h2 id="popup-title"></h2>
+
+      <div id="logopup">
+
+        <img id="profile-picture" src="" alt="Profile Picture">
+
+      </div>
+
+      <div class="contact-details">
+
+        <p id="address"></p>
+
+        <p id="email"></p>
+
+        <p id="phone"></p>
+
+        <p id="skills"></p>
+
+      </div>
+
+      <div class="social-media-links">
+
+        <a id="facebook-link" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+
+        <a id="github-link" href="#" target="_blank"><i class="fab fa-github"></i></a>
+
+        <a id="whatsapp-link" href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+        <a id="instagram-link" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+        <a id="website-link" href="#" target="_blank"><i class="fas fa-globe"></i></a>
+
+        <button class="popup-btn" onclick="closePopup()">Cancel</button>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div id="fb-root"></div>
+
+  <!-- Your Chat plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "110511275350351");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v17.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+</body>
+
+</html>
+
